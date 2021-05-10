@@ -16,7 +16,7 @@ public class TesteContas {
 		cc2.transfere(599.80, cc);
 		System.out.println(cc.getSaldo());
 		
-		/* System.out.println("CC: " + cc.getSaldo());
-		System.out.println("CP: " + cp.getSaldo()); */
+		System.out.println("CC: " + cc.getSaldo());
+		System.out.println("CP: " + cp.getSaldo());
 	}
 }
