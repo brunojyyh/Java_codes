@@ -1,0 +1,948 @@
+[33mcommit 406eb92870cad1c6e21cac01a0e6ba8397628d77[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: bruno lopes <Brunojyyh@hotmail.com>
+Date:   Mon May 10 20:04:50 2021 -0300
+
+    apenas comentando
+
+[1mdiff --git a/bytebank-herdado-conta/bin/TesteContas.class b/bytebank-herdado-conta/bin/TesteContas.class[m
+[1mindex 60846a5..f4704ab 100644[m
+Binary files a/bytebank-herdado-conta/bin/TesteContas.class and b/bytebank-herdado-conta/bin/TesteContas.class differ
+
+[33mcommit 9981e0b8d71a8d818985f4088971de115e8bd347[m
+Author: bruno lopes <Brunojyyh@hotmail.com>
+Date:   Mon May 10 20:01:24 2021 -0300
+
+    tirando comentario
+
+[1mdiff --git a/bytebank-herdado-conta/src/TesteContas.java b/bytebank-herdado-conta/src/TesteContas.java[m
+[1mindex 901e708..46c6b91 100644[m
+[1m--- a/bytebank-herdado-conta/src/TesteContas.java[m
+[1m+++ b/bytebank-herdado-conta/src/TesteContas.java[m
+[36m@@ -16,7 +16,7 @@[m [mpublic class TesteContas {[m
+ 		cc2.transfere(599.80, cc);[m
+ 		System.out.println(cc.getSaldo());[m
+ 		[m
+[31m-		/* System.out.println("CC: " + cc.getSaldo());[m
+[31m-		System.out.println("CP: " + cp.getSaldo()); */[m
+[32m+[m		[32mSystem.out.println("CC: " + cc.getSaldo());[m
+[32m+[m		[32mSystem.out.println("CP: " + cp.getSaldo());[m
+ 	}[m
+ }[m
+
+[33mcommit 48a55be57efdaab84ae2ff8fc934c05783ebb414[m
+Author: bruno lopes <Brunojyyh@hotmail.com>
+Date:   Mon May 10 19:56:45 2021 -0300
+
+    adicionando meus projetos
+
+[1mdiff --git a/bytebank-encapsulado/.classpath b/bytebank-encapsulado/.classpath[m
+[1mnew file mode 100644[m
+[1mindex 0000000..51a8bba[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-encapsulado/.classpath[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<classpath>[m
+[32m+[m	[32m<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>[m
+[32m+[m	[32m<classpathentry kind="src" path="src"/>[m
+[32m+[m	[32m<classpathentry kind="output" path="bin"/>[m
+[32m+[m[32m</classpath>[m
+[1mdiff --git a/bytebank-encapsulado/.gitignore b/bytebank-encapsulado/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ae3c172[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-encapsulado/.gitignore[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m/bin/[m
+[1mdiff --git a/bytebank-encapsulado/.project b/bytebank-encapsulado/.project[m
+[1mnew file mode 100644[m
+[1mindex 0000000..54b82cb[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-encapsulado/.project[m
+[36m@@ -0,0 +1,28 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<projectDescription>[m
+[32m+[m	[32m<name>bytebank</name>[m
+[32m+[m	[32m<comment></comment>[m
+[32m+[m	[32m<projects>[m
+[32m+[m	[32m</projects>[m
+[32m+[m	[32m<buildSpec>[m
+[32m+[m		[32m<buildCommand>[m
+[32m+[m			[32m<name>org.eclipse.jdt.core.javabuilder</name>[m
+[32m+[m			[32m<arguments>[m
+[32m+[m			[32m</arguments>[m
+[32m+[m		[32m</buildCommand>[m
+[32m+[m	[32m</buildSpec>[m
+[32m+[m	[32m<natures>[m
+[32m+[m		[32m<nature>org.eclipse.jdt.core.javanature</nature>[m
+[32m+[m	[32m</natures>[m
+[32m+[m	[32m<filteredResources>[m
+[32m+[m		[32m<filter>[m
+[32m+[m			[32m<id>1620677949391</id>[m
+[32m+[m			[32m<name></name>[m
+[32m+[m			[32m<type>30</type>[m
+[32m+[m			[32m<matcher>[m
+[32m+[m				[32m<id>org.eclipse.core.resources.regexFilterMatcher</id>[m
+[32m+[m				[32m<arguments>node_modules|.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>[m
+[32m+[m			[32m</matcher>[m
+[32m+[m		[32m</filter>[m
+[32m+[m	[32m</filteredResources>[m
+[32m+[m[32m</projectDescription>[m
+[1mdiff --git a/bytebank-encapsulado/.settings/org.eclipse.jdt.core.prefs b/bytebank-encapsulado/.settings/org.eclipse.jdt.core.prefs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3a21537[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-encapsulado/.settings/org.eclipse.jdt.core.prefs[m
+[36m@@ -0,0 +1,11 @@[m
+[32m+[m[32meclipse.preferences.version=1[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.codegen.unusedLocal=preserve[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.compliance=1.8[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.debug.lineNumber=generate[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.debug.localVariable=generate[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.debug.sourceFile=generate[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.problem.assertIdentifier=error[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.problem.enumIdentifier=error[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.source=1.8[m
+[1mdiff --git a/bytebank-encapsulado/src/Cliente.java b/bytebank-encapsulado/src/Cliente.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ee3aed5[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-encapsulado/src/Cliente.java[m
+[36m@@ -0,0 +1,26 @@[m
+[32m+[m[32mpublic class Cliente {[m
+[32m+[m
+[32m+[m[32m    private String nome;[m
+[32m+[m[32m    private String cpf;[m
+[32m+[m[32m    private String profissao;[m
+[32m+[m
+[32m+[m[32m    public String getNome() {[m
+[32m+[m[32m        return nome;[m
+[32m+[m[32m    }[m
+[32m+[m[32m    public void setNome(String nome) {[m
+[32m+[m[32m        this.nome = nome;[m
+[32m+[m[32m    }[m
+[32m+[m[32m    public String getCpf() {[m
+[32m+[m[32m        return cpf;[m
+[32m+[m[32m    }[m
+[32m+[m[32m    public void setCpf(String cpf) {[m
+[32m+[m[32m        this.cpf = cpf;[m
+[32m+[m[32m    }[m
+[32m+[m[32m    public String getProfissao() {[m
+[32m+[m[32m        return profissao;[m
+[32m+[m[32m    }[m
+[32m+[m[32m    public void setProfissao(String profissao) {[m
+[32m+[m[32m        this.profissao = profissao;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/bytebank-encapsulado/src/Conta.java b/bytebank-encapsulado/src/Conta.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c9c91f5[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-encapsulado/src/Conta.java[m
+[36m@@ -0,0 +1,80 @@[m
+[32m+[m[32mpublic class Conta {[m
+[32m+[m
+[32m+[m	[32mprivate double saldo;[m
+[32m+[m	[32mprivate int agencia;[m
+[32m+[m	[32mprivate int numero;[m
+[32m+[m	[32mprivate Cliente titular;[m
+[32m+[m	[32mprivate static int total = 0;[m
+[32m+[m
+[32m+[m	[32mpublic Conta(int agencia, int numero) {[m
+[32m+[m		[32mConta.total++;[m
+[32m+[m		[32mSystem.out.println("O total de contas é " + Conta.total);[m
+[32m+[m		[32mthis.agencia = agencia;[m
+[32m+[m		[32mthis.numero = numero;[m
+[32m+[m		[32mthis.saldo = 100;[m
+[32m+[m		[32mSystem.out.println("Estou criando uma conta" + this.numero);[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32mpublic void deposita(double valor) {[m
+[32m+[m		[32mthis.saldo = this.saldo + valor;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32mpublic boolean saca(double valor) {[m
+[32m+[m		[32mif (this.saldo >= valor) {[m
+[32m+[m			[32mthis.saldo -= valor;[m
+[32m+[m			[32mreturn true;[m
+[32m+[m		[32m} else {[m
+[32m+[m			[32mreturn false;[m
+[32m+[m		[32m}[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32mpublic boolean transfere(double valor, Conta destino) {[m
+[32m+[m		[32mif (this.saldo >= valor) {[m
+[32m+[m			[32mthis.saldo -= valor;[m
+[32m+[m			[32mdestino.deposita(valor);[m
+[32m+[m			[32mreturn true;[m
+[32m+[m		[32m}[m
+[32m+[m		[32mreturn false;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32mpublic double getSaldo() {[m
+[32m+[m		[32mreturn this.saldo;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32mpublic int getNumero() {[m
+[32m+[m		[32mreturn this.numero;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32mpublic void setNumero(int numero) {[m
+[32m+[m		[32mif (numero <= 0) {[m
+[32m+[m			[32mSystem.out.println("Nao pode valor menor igual a 0");[m
+[32m+[m			[32mreturn;[m
+[32m+[m		[32m}[m
+[32m+[m		[32mthis.numero = numero;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32mpublic int getAgencia() {[m
+[32m+[m		[32mreturn this.agencia;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32mpublic void setAgencia(int agencia) {[m
+[32m+[m		[32mif (agencia <= 0) {[m
+[32m+[m			[32mSystem.out.println("Nao pode valor menor igual a 0");[m
+[32m+[m			[32mreturn;[m
+[32m+[m		[32m}[m
+[32m+[m		[32mthis.agencia = agencia;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32mpublic void setTitular(Cliente titular) {[m
+[32m+[m		[32mthis.titular = titular;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32mpublic Cliente getTitular() {[m
+[32m+[m		[32mreturn this.titular;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32mpublic static int getTotal() {[m
+[32m+[m		[32mreturn Conta.total;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/bytebank-encapsulado/src/CriaConta.java b/bytebank-encapsulado/src/CriaConta.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..353e910[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-encapsulado/src/CriaConta.java[m
+[36m@@ -0,0 +1,20 @@[m
+[32m+[m[32mpublic class CriaConta {[m
+[32m+[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[32m        Conta primeiraConta = new Conta(6646,969060);[m
+[32m+[m[32m        primeiraConta.deposita(200);[m
+[32m+[m[32m        System.out.println(primeiraConta.getSaldo());[m
+[32m+[m
+[32m+[m[32m        primeiraConta.deposita(100);[m
+[32m+[m[32m        System.out.println(primeiraConta.getSaldo());[m
+[32m+[m
+[32m+[m[32m        Conta segundaConta = new Conta(6645,969061);[m
+[32m+[m[32m        segundaConta.deposita(50);[m
+[32m+[m
+[32m+[m[32m        System.out.println("primeira conta tem " + primeiraConta.getSaldo());[m
+[32m+[m[32m        System.out.println("segunda conta tem " + segundaConta.getSaldo());[m
+[32m+[m
+[32m+[m[32m        System.out.println("referenciar: " + primeiraConta);[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/bytebank-encapsulado/src/TestaBanco.java b/bytebank-encapsulado/src/TestaBanco.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a5a78c3[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-encapsulado/src/TestaBanco.java[m
+[36m@@ -0,0 +1,16 @@[m
+[32m+[m[32mpublic class TestaBanco {[m
+[32m+[m	[32mpublic static void main(String[] args) {[m
+[32m+[m		[32mCliente paulo = new Cliente();[m
+[32m+[m		[32mpaulo.setNome("Paulo Silveira");[m
+[32m+[m		[32mpaulo.setCpf("222.222.222.-22");[m
+[32m+[m		[32mpaulo.setProfissao("programador");[m
+[32m+[m
+[32m+[m		[32mConta contaDoPaulo = new Conta(6646,969060);[m
+[32m+[m		[32mcontaDoPaulo.deposita(100);[m
+[32m+[m
+[32m+[m		[32mcontaDoPaulo.setTitular(paulo);[m
+[32m+[m		[32mSystem.out.println(contaDoPaulo.getTitular().getNome());[m
+[32m+[m		[32mSystem.out.println(contaDoPaulo.getTitular());[m
+[32m+[m
+[32m+[m	[32m}[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/bytebank-encapsulado/src/TestaContaSemCliente.java b/bytebank-encapsulado/src/TestaContaSemCliente.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..fbd8a4e[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-encapsulado/src/TestaContaSemCliente.java[m
+[36m@@ -0,0 +1,13 @@[m
+[32m+[m[32mpublic class TestaContaSemCliente {[m
+[32m+[m	[32mpublic static void main(String[] args) {[m
+[32m+[m		[32mConta contaDaMarcela = new Conta(6646,969060);[m
+[32m+[m		[32mSystem.out.println(contaDaMarcela.getSaldo());[m
+[32m+[m
+[32m+[m		[32mcontaDaMarcela.setTitular(new Cliente());[m
+[32m+[m		[32mSystem.out.println(contaDaMarcela.getTitular());[m
+[32m+[m
+[32m+[m		[32mcontaDaMarcela.getTitular().setNome("Marcela");[m
+[32m+[m		[32mSystem.out.println(contaDaMarcela.getTitular().getNome());[m
+[32m+[m
+[32m+[m	[32m}[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/bytebank-encapsulado/src/TestaMetodo.java b/bytebank-encapsulado/src/TestaMetodo.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f9ed088[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-encapsulado/src/TestaMetodo.java[m
+[36m@@ -0,0 +1,28 @@[m
+[32m+[m[32mpublic class TestaMetodo {[m
+[32m+[m	[32mpublic static void main(String[] args) {[m
+[32m+[m		[32mConta contaDoPaulo = new Conta(6646,969060);[m
+[32m+[m		[32mcontaDoPaulo.deposita(100);[m
+[32m+[m		[32mcontaDoPaulo.deposita(50);[m
+[32m+[m		[32mSystem.out.println(contaDoPaulo.getSaldo());[m
+[32m+[m
+[32m+[m		[32mboolean conseguiuRetirar = contaDoPaulo.saca(20);[m
+[32m+[m		[32mSystem.out.println(contaDoPaulo.getSaldo());[m
+[32m+[m		[32mSystem.out.println(conseguiuRetirar);[m
+[32m+[m
+[32m+[m		[32mConta contaDaMarcela = new Conta(6644,969063);[m
+[32m+[m		[32mcontaDaMarcela.deposita(1000);[m
+[32m+[m
+[32m+[m		[32mboolean sucessoTransferencia = contaDaMarcela.transfere(300, contaDoPaulo);[m
+[32m+[m
+[32m+[m		[32mif (sucessoTransferencia) {[m
+[32m+[m			[32mSystem.out.println("transferencia com sucesso");[m
+[32m+[m
+[32m+[m		[32m} else {[m
+[32m+[m			[32mSystem.out.println("faltou dinheiro");[m
+[32m+[m
+[32m+[m		[32m}[m
+[32m+[m		[32mSystem.out.println(contaDaMarcela.getSaldo());[m
+[32m+[m		[32mSystem.out.println(contaDoPaulo.getSaldo());[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/bytebank-encapsulado/src/TesteSacaNeagivo.java b/bytebank-encapsulado/src/TesteSacaNeagivo.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0014347[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-encapsulado/src/TesteSacaNeagivo.java[m
+[36m@@ -0,0 +1,12 @@[m
+[32m+[m[32mpublic class TesteSacaNeagivo {[m
+[32m+[m	[32mpublic static void main(String[] args) {[m
+[32m+[m		[32mConta conta = new Conta(6646,969060);[m
+[32m+[m		[32mconta.deposita(100);[m
+[32m+[m		[32mSystem.out.println(conta.saca(101));[m
+[32m+[m
+[32m+[m		[32mconta.saca(101);[m
+[32m+[m
+[32m+[m		[32mSystem.out.println(conta.getSaldo());[m
+[32m+[m
+[32m+[m	[32m}[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/bytebank-herdado-conta/.classpath b/bytebank-herdado-conta/.classpath[m
+[1mnew file mode 100644[m
+[1mindex 0000000..51a8bba[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-herdado-conta/.classpath[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<classpath>[m
+[32m+[m	[32m<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>[m
+[32m+[m	[32m<classpathentry kind="src" path="src"/>[m
+[32m+[m	[32m<classpathentry kind="output" path="bin"/>[m
+[32m+[m[32m</classpath>[m
+[1mdiff --git a/bytebank-herdado-conta/.project b/bytebank-herdado-conta/.project[m
+[1mnew file mode 100644[m
+[1mindex 0000000..339d99a[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-herdado-conta/.project[m
+[36m@@ -0,0 +1,28 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<projectDescription>[m
+[32m+[m	[32m<name>bytebank-herdado-conta</name>[m
+[32m+[m	[32m<comment></comment>[m
+[32m+[m	[32m<projects>[m
+[32m+[m	[32m</projects>[m
+[32m+[m	[32m<buildSpec>[m
+[32m+[m		[32m<buildCommand>[m
+[32m+[m			[32m<name>org.eclipse.jdt.core.javabuilder</name>[m
+[32m+[m			[32m<arguments>[m
+[32m+[m			[32m</arguments>[m
+[32m+[m		[32m</buildCommand>[m
+[32m+[m	[32m</buildSpec>[m
+[32m+[m	[32m<natures>[m
+[32m+[m		[32m<nature>org.eclipse.jdt.core.javanature</nature>[m
+[32m+[m	[32m</natures>[m
+[32m+[m	[32m<filteredResources>[m
+[32m+[m		[32m<filter>[m
+[32m+[m			[32m<id>1620677949407</id>[m
+[32m+[m			[32m<name></name>[m
+[32m+[m			[32m<type>30</type>[m
+[32m+[m			[32m<matcher>[m
+[32m+[m				[32m<id>org.eclipse.core.resources.regexFilterMatcher</id>[m
+[32m+[m				[32m<arguments>node_modules|.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>[m
+[32m+[m			[32m</matcher>[m
+[32m+[m		[32m</filter>[m
+[32m+[m	[32m</filteredResources>[m
+[32m+[m[32m</projectDescription>[m
+[1mdiff --git a/bytebank-herdado-conta/.settings/org.eclipse.jdt.core.prefs b/bytebank-herdado-conta/.settings/org.eclipse.jdt.core.prefs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3a21537[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-herdado-conta/.settings/org.eclipse.jdt.core.prefs[m
+[36m@@ -0,0 +1,11 @@[m
+[32m+[m[32meclipse.preferences.version=1[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.codegen.unusedLocal=preserve[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.compliance=1.8[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.debug.lineNumber=generate[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.debug.localVariable=generate[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.debug.sourceFile=generate[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.problem.assertIdentifier=error[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.problem.enumIdentifier=error[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.source=1.8[m
+[1mdiff --git a/bytebank-herdado-conta/bin/Cliente.class b/bytebank-herdado-conta/bin/Cliente.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c2e62b2[m
+Binary files /dev/null and b/bytebank-herdado-conta/bin/Cliente.class differ
+[1mdiff --git a/bytebank-herdado-conta/bin/Conta.class b/bytebank-herdado-conta/bin/Conta.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..95300ba[m
+Binary files /dev/null and b/bytebank-herdado-conta/bin/Conta.class differ
+[1mdiff --git a/bytebank-herdado-conta/bin/ContaCorrente.class b/bytebank-herdado-conta/bin/ContaCorrente.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..31eb19d[m
+Binary files /dev/null and b/bytebank-herdado-conta/bin/ContaCorrente.class differ
+[1mdiff --git a/bytebank-herdado-conta/bin/ContaPoupanca.class b/bytebank-herdado-conta/bin/ContaPoupanca.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b446e37[m
+Binary files /dev/null and b/bytebank-herdado-conta/bin/ContaPoupanca.class differ
+[1mdiff --git a/bytebank-herdado-conta/bin/TesteContas.class b/bytebank-herdado-conta/bin/TesteContas.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..60846a5[m
+Binary files /dev/null and b/bytebank-herdado-conta/bin/TesteContas.class differ
+[1mdiff --git a/bytebank-herdado-conta/bin/teste0.class b/bytebank-herdado-conta/bin/teste0.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2ee42f5[m
+Binary files /dev/null and b/bytebank-herdado-conta/bin/teste0.class differ
+[1mdiff --git a/bytebank-herdado-conta/src/Cliente.java b/bytebank-herdado-conta/src/Cliente.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..08189f5[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-herdado-conta/src/Cliente.java[m
+[36m@@ -0,0 +1,28 @@[m
+[32m+[m
+[32m+[m
+[32m+[m[32mpublic class Cliente {[m
+[32m+[m
+[32m+[m[32m    private String nome;[m
+[32m+[m[32m    private String cpf;[m
+[32m+[m[32m    private String profissao;[m
+[32m+[m
+[32m+[m[32m    public String getNome() {[m
+[32m+[m[32m        return nome;[m
+[32m+[m[32m    }[m
+[32m+[m[32m    public void setNome(String nome) {[m
+[32m+[m[32m        this.nome = nome;[m
+[32m+[m[32m    }[m
+[32m+[m[32m    public String getCpf() {[m
+[32m+[m[32m        return cpf;[m
+[32m+[m[32m    }[m
+[32m+[m[32m    public void setCpf(String cpf) {[m
+[32m+[m[32m        this.cpf = cpf;[m
+[32m+[m[32m    }[m
+[32m+[m[32m    public String getProfissao() {[m
+[32m+[m[32m        return profissao;[m
+[32m+[m[32m    }[m
+[32m+[m[32m    public void setProfissao(String profissao) {[m
+[32m+[m[32m        this.profissao = profissao;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m}[m
+[1mdiff --git a/bytebank-herdado-conta/src/Conta.java b/bytebank-herdado-conta/src/Conta.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6cde1bc[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-herdado-conta/src/Conta.java[m
+[36m@@ -0,0 +1,80 @@[m
+[32m+[m
+[32m+[m
+[32m+[m[32mpublic abstract class Conta {[m
+[32m+[m
+[32m+[m[32m    protected double saldo;[m
+[32m+[m[32m    private int agencia;[m
+[32m+[m[32m    private int numero;[m
+[32m+[m[32m    private Cliente titular;[m
+[32m+[m[32m    private static int total = 0;[m
+[32m+[m[41m    [m
+[32m+[m[32m    public Conta(int agencia, int numero){[m
+[32m+[m[32m        Conta.total++;[m
+[32m+[m[32m        //System.out.println("O total de contas é " + Conta.total);[m
+[32m+[m[32m        this.agencia = agencia;[m
+[32m+[m[32m        this.numero = numero;[m
+[32m+[m[32m        //this.saldo = 100;[m
+[32m+[m[32m        //System.out.println("Estou criando uma conta " + this.numero);[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public abstract void deposita(double valor);[m
+[32m+[m
+[32m+[m[32m    public boolean saca(double valor) {[m
+[32m+[m[32m        if(this.saldo >= valor) {[m
+[32m+[m[32m            this.saldo -= valor;[m
+[32m+[m[32m            return true;[m
+[32m+[m[32m        } else {[m
+[32m+[m[32m            return false;[m
+[32m+[m[32m        }[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public boolean transfere(double valor, Conta destino) {[m
+[32m+[m[32m        if(this.saca(valor)) {[m
+[32m+[m[41m        [m		[32mdestino.deposita(valor);[m
+[32m+[m[41m        [m		[32mreturn true;[m
+[32m+[m[32m        } else {[m
+[32m+[m[41m        [m		[32mreturn false;[m
+[32m+[m[32m        }[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public double getSaldo(){[m
+[32m+[m[32m        return this.saldo;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public int getNumero(){[m
+[32m+[m[32m        return this.numero;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public void setNumero(int numero){[m
+[32m+[m[32m        if(numero <= 0) {[m
+[32m+[m[32m            System.out.println("Nao pode valor menor igual a 0");[m
+[32m+[m[32m            return;[m
+[32m+[m[32m        }[m
+[32m+[m[32m        this.numero = numero;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public int getAgencia(){[m
+[32m+[m[32m        return this.agencia;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public void setAgencia(int agencia){[m
+[32m+[m[32m       if(agencia <= 0) {[m
+[32m+[m[32m           System.out.println("Nao pode valor menor igual a 0");[m
+[32m+[m[32m           return;[m
+[32m+[m[32m       }[m
+[32m+[m[32m       this.agencia = agencia;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public void setTitular(Cliente titular){[m
+[32m+[m[32m        this.titular = titular;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public Cliente getTitular(){[m
+[32m+[m[32m        return this.titular;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public static int getTotal(){[m
+[32m+[m[32m        return Conta.total;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/bytebank-herdado-conta/src/ContaCorrente.java b/bytebank-herdado-conta/src/ContaCorrente.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7ec250a[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-herdado-conta/src/ContaCorrente.java[m
+[36m@@ -0,0 +1,21 @@[m
+[32m+[m
+[32m+[m
+[32m+[m[32m//new ContaCorrente()[m
+[32m+[m[32mpublic class ContaCorrente extends Conta {[m
+[32m+[m
+[32m+[m	[32mpublic ContaCorrente(int agencia, int numero) {[m
+[32m+[m		[32msuper(agencia, numero);[m
+[32m+[m	[32m}[m
+[32m+[m[41m	[m
+[32m+[m	[32m@Override[m
+[32m+[m	[32mpublic boolean saca(double valor) {[m
+[32m+[m		[32mdouble valorASacar = valor + 0.2;[m
+[32m+[m		[32mreturn super.saca(valorASacar);[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32m@Override[m
+[32m+[m	[32mpublic void deposita(double valor) {[m
+[32m+[m[32m        super.saldo += valor;[m
+[32m+[m[32m    }[m
+[32m+[m[41m	[m
+[32m+[m[32m}[m
+[1mdiff --git a/bytebank-herdado-conta/src/ContaPoupanca.java b/bytebank-herdado-conta/src/ContaPoupanca.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f77a555[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-herdado-conta/src/ContaPoupanca.java[m
+[36m@@ -0,0 +1,13 @@[m
+[32m+[m
+[32m+[m[32mpublic class ContaPoupanca extends Conta {[m
+[32m+[m
+[32m+[m	[32mpublic ContaPoupanca(int agencia, int numero) {[m
+[32m+[m		[32msuper(agencia, numero);[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32m@Override[m
+[32m+[m	[32mpublic void deposita(double valor) {[m
+[32m+[m		[32msuper.saldo += valor;[m[41m	[m
+[32m+[m	[32m}[m
+[32m+[m[41m	[m
+[32m+[m[32m}[m
+[1mdiff --git a/bytebank-herdado-conta/src/TesteContas.java b/bytebank-herdado-conta/src/TesteContas.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..901e708[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-herdado-conta/src/TesteContas.java[m
+[36m@@ -0,0 +1,22 @@[m
+[32m+[m
+[32m+[m[32mpublic class TesteContas {[m
+[32m+[m	[32mpublic static void main(String[] args) {[m
+[32m+[m[41m		[m
+[32m+[m		[32mContaCorrente cc = new ContaCorrente(111,222);[m
+[32m+[m		[32mcc.deposita(100.00);[m
+[32m+[m[41m		[m
+[32m+[m		[32mContaPoupanca cp = new ContaPoupanca(222,222);[m
+[32m+[m		[32mcp.deposita(200.00);[m
+[32m+[m[41m		[m
+[32m+[m		[32mcc.transfere(10.00,cp);[m
+[32m+[m
+[32m+[m		[32mContaCorrente cc2 = new ContaCorrente(333, 333);[m
+[32m+[m		[32mcc2.deposita(600);[m
+[32m+[m		[32mSystem.out.println("valor do deposito" + cc2.getSaldo());[m[41m [m
+[32m+[m		[32mcc2.transfere(599.80, cc);[m
+[32m+[m		[32mSystem.out.println(cc.getSaldo());[m
+[32m+[m[41m		[m
+[32m+[m		[32m/* System.out.println("CC: " + cc.getSaldo());[m
+[32m+[m		[32mSystem.out.println("CP: " + cp.getSaldo()); */[m
+[32m+[m	[32m}[m
+[32m+[m[32m}[m
+[1mdiff --git a/bytebank-herdado-conta/src/teste0.java b/bytebank-herdado-conta/src/teste0.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..530f611[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-herdado-conta/src/teste0.java[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m
+[32m+[m[32mpublic class teste0 {[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[41m        [m
+[32m+[m[32m    }[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/bytebank-herdado/.classpath b/bytebank-herdado/.classpath[m
+[1mnew file mode 100644[m
+[1mindex 0000000..51a8bba[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-herdado/.classpath[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<classpath>[m
+[32m+[m	[32m<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>[m
+[32m+[m	[32m<classpathentry kind="src" path="src"/>[m
+[32m+[m	[32m<classpathentry kind="output" path="bin"/>[m
+[32m+[m[32m</classpath>[m
+[1mdiff --git a/bytebank-herdado/.project b/bytebank-herdado/.project[m
+[1mnew file mode 100644[m
+[1mindex 0000000..313db85[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-herdado/.project[m
+[36m@@ -0,0 +1,28 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<projectDescription>[m
+[32m+[m	[32m<name>bytebank-herdado</name>[m
+[32m+[m	[32m<comment></comment>[m
+[32m+[m	[32m<projects>[m
+[32m+[m	[32m</projects>[m
+[32m+[m	[32m<buildSpec>[m
+[32m+[m		[32m<buildCommand>[m
+[32m+[m			[32m<name>org.eclipse.jdt.core.javabuilder</name>[m
+[32m+[m			[32m<arguments>[m
+[32m+[m			[32m</arguments>[m
+[32m+[m		[32m</buildCommand>[m
+[32m+[m	[32m</buildSpec>[m
+[32m+[m	[32m<natures>[m
+[32m+[m		[32m<nature>org.eclipse.jdt.core.javanature</nature>[m
+[32m+[m	[32m</natures>[m
+[32m+[m	[32m<filteredResources>[m
+[32m+[m		[32m<filter>[m
+[32m+[m			[32m<id>1620677949400</id>[m
+[32m+[m			[32m<name></name>[m
+[32m+[m			[32m<type>30</type>[m
+[32m+[m			[32m<matcher>[m
+[32m+[m				[32m<id>org.eclipse.core.resources.regexFilterMatcher</id>[m
+[32m+[m				[32m<arguments>node_modules|.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>[m
+[32m+[m			[32m</matcher>[m
+[32m+[m		[32m</filter>[m
+[32m+[m	[32m</filteredResources>[m
+[32m+[m[32m</projectDescription>[m
+[1mdiff --git a/bytebank-herdado/.settings/org.eclipse.jdt.core.prefs b/bytebank-herdado/.settings/org.eclipse.jdt.core.prefs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3a21537[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-herdado/.settings/org.eclipse.jdt.core.prefs[m
+[36m@@ -0,0 +1,11 @@[m
+[32m+[m[32meclipse.preferences.version=1[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.codegen.unusedLocal=preserve[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.compliance=1.8[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.debug.lineNumber=generate[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.debug.localVariable=generate[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.debug.sourceFile=generate[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.problem.assertIdentifier=error[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.problem.enumIdentifier=error[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.source=1.8[m
+[1mdiff --git a/bytebank-herdado/bin/ControleBonificacao.class b/bytebank-herdado/bin/ControleBonificacao.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..32b8175[m
+Binary files /dev/null and b/bytebank-herdado/bin/ControleBonificacao.class differ
+[1mdiff --git a/bytebank-herdado/bin/Designer.class b/bytebank-herdado/bin/Designer.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..004e20f[m
+Binary files /dev/null and b/bytebank-herdado/bin/Designer.class differ
+[1mdiff --git a/bytebank-herdado/bin/EditorVideo.class b/bytebank-herdado/bin/EditorVideo.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f4f58ba[m
+Binary files /dev/null and b/bytebank-herdado/bin/EditorVideo.class differ
+[1mdiff --git a/bytebank-herdado/bin/Funcionario.class b/bytebank-herdado/bin/Funcionario.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7451df2[m
+Binary files /dev/null and b/bytebank-herdado/bin/Funcionario.class differ
+[1mdiff --git a/bytebank-herdado/bin/Gerente.class b/bytebank-herdado/bin/Gerente.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..701af22[m
+Binary files /dev/null and b/bytebank-herdado/bin/Gerente.class differ
+[1mdiff --git a/bytebank-herdado/bin/TesteFuncionario.class b/bytebank-herdado/bin/TesteFuncionario.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e0f3ac3[m
+Binary files /dev/null and b/bytebank-herdado/bin/TesteFuncionario.class differ
+[1mdiff --git a/bytebank-herdado/bin/TesteGerente.class b/bytebank-herdado/bin/TesteGerente.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4783828[m
+Binary files /dev/null and b/bytebank-herdado/bin/TesteGerente.class differ
+[1mdiff --git a/bytebank-herdado/bin/TesteReferencias.class b/bytebank-herdado/bin/TesteReferencias.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..cab2e54[m
+Binary files /dev/null and b/bytebank-herdado/bin/TesteReferencias.class differ
+[1mdiff --git a/bytebank-herdado/src/ControleBonificacao.java b/bytebank-herdado/src/ControleBonificacao.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..dde2134[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-herdado/src/ControleBonificacao.java[m
+[36m@@ -0,0 +1,14 @@[m
+[32m+[m[32mpublic class ControleBonificacao {[m
+[32m+[m
+[32m+[m[32m    private double soma;[m
+[32m+[m
+[32m+[m[32m    public void registra(Funcionario f) {[m
+[32m+[m[32m        double boni = f.getBonificacao();[m
+[32m+[m[32m        this.soma = this.soma + boni;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public double getSoma() {[m
+[32m+[m[32m        return soma;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/bytebank-herdado/src/Designer.java b/bytebank-herdado/src/Designer.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ae5bdbe[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-herdado/src/Designer.java[m
+[36m@@ -0,0 +1,9 @@[m
+[32m+[m[32m//Gerente eh um Funcionario, Gerente herda da class Funcionario[m
+[32m+[m[32mpublic class Designer extends Funcionario {[m
+[32m+[m[41m	[m
+[32m+[m	[32mpublic double getBonificacao() {[m
+[32m+[m		[32mSystem.out.println("Chamando o método de bonificacao do Designer");[m
+[32m+[m		[32mreturn 200;[m
+[32m+[m	[32m}[m[41m	[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/bytebank-herdado/src/EditorVideo.java b/bytebank-herdado/src/EditorVideo.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8267e01[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-herdado/src/EditorVideo.java[m
+[36m@@ -0,0 +1,9 @@[m
+[32m+[m[32m//Gerente eh um Funcionario, Gerente herda da class Funcionario[m
+[32m+[m[32mpublic class EditorVideo extends Funcionario {[m
+[32m+[m[41m	[m
+[32m+[m	[32mpublic double getBonificacao() {[m
+[32m+[m		[32mSystem.out.println("Chamando o método de bonificacao do Editor de video");[m
+[32m+[m		[32mreturn 150;[m
+[32m+[m	[32m}[m[41m	[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/bytebank-herdado/src/Funcionario.java b/bytebank-herdado/src/Funcionario.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ce56d13[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-herdado/src/Funcionario.java[m
+[36m@@ -0,0 +1,35 @@[m
+[32m+[m[32mpublic class Funcionario {[m
+[32m+[m
+[32m+[m	[32mprivate String nome;[m
+[32m+[m	[32mprivate String cpf;[m
+[32m+[m	[32mprivate double salario;[m
+[32m+[m
+[32m+[m	[32mpublic double getBonificacao() {[m
+[32m+[m		[32mreturn this.salario * 0.1;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32mpublic String getNome() {[m
+[32m+[m		[32mreturn nome;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32mpublic void setNome(String nome) {[m
+[32m+[m		[32mthis.nome = nome;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32mpublic String getCpf() {[m
+[32m+[m		[32mreturn cpf;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32mpublic void setCpf(String cpf) {[m
+[32m+[m		[32mthis.cpf = cpf;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32mpublic double getSalario() {[m
+[32m+[m		[32mreturn salario;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32mpublic void setSalario(double salario) {[m
+[32m+[m		[32mthis.salario = salario;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/bytebank-herdado/src/Gerente.java b/bytebank-herdado/src/Gerente.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f7027e8[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-herdado/src/Gerente.java[m
+[36m@@ -0,0 +1,22 @@[m
+[32m+[m[32mpublic class Gerente extends Funcionario {[m
+[32m+[m
+[32m+[m	[32mprivate int senha;[m
+[32m+[m[41m	[m
+[32m+[m	[32m@Override[m
+[32m+[m	[32mpublic double getBonificacao() {[m
+[32m+[m	[32m    return super.getBonificacao() + super.getSalario();[m
+[32m+[m	[32m}[m
+[32m+[m[41m	[m
+[32m+[m	[32mpublic void setSenha(int senha) {[m
+[32m+[m		[32mthis.senha = senha;[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32mpublic boolean autentica(int senha) {[m
+[32m+[m		[32mif (this.senha == senha) {[m
+[32m+[m			[32mreturn true;[m
+[32m+[m		[32m} else {[m
+[32m+[m			[32mreturn false;[m
+[32m+[m		[32m}[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/bytebank-herdado/src/TesteFuncionario.java b/bytebank-herdado/src/TesteFuncionario.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..217517e[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-herdado/src/TesteFuncionario.java[m
+[36m@@ -0,0 +1,16 @@[m
+[32m+[m[32mpublic class TesteFuncionario {[m
+[32m+[m
+[32m+[m	[32mpublic static void main(String[] args) {[m
+[32m+[m
+[32m+[m		[32mFuncionario nico = new Funcionario();[m
+[32m+[m
+[32m+[m		[32mnico.setNome("Nico Steppat");[m
+[32m+[m		[32mnico.setCpf("223355646-9");[m
+[32m+[m		[32mnico.setSalario(2590.80);[m
+[32m+[m
+[32m+[m		[32mSystem.out.println(nico.getNome());[m
+[32m+[m		[32mSystem.out.println(nico.getBonificacao());[m
+[32m+[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/bytebank-herdado/src/TesteGerente.java b/bytebank-herdado/src/TesteGerente.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..815a323[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-herdado/src/TesteGerente.java[m
+[36m@@ -0,0 +1,22 @@[m
+[32m+[m[32mpublic class TesteGerente {[m
+[32m+[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m
+[32m+[m[32m        Gerente g1 = new Gerente();[m
+[32m+[m[32m        g1.setNome("Marco");[m
+[32m+[m[32m        g1.setCpf("235568413");[m
+[32m+[m[32m        g1.setSalario(5000.0);[m
+[32m+[m
+[32m+[m[32m        System.out.println(g1.getNome());[m
+[32m+[m[32m        System.out.println(g1.getCpf());[m
+[32m+[m[32m        System.out.println(g1.getSalario());[m
+[32m+[m
+[32m+[m[32m        g1.setSenha(2222);[m
+[32m+[m[32m        boolean autenticou = g1.autentica(2222);[m
+[32m+[m
+[32m+[m[32m        System.out.println(autenticou);[m
+[32m+[m
+[32m+[m[32m        System.out.println(g1.getBonificacao());[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/bytebank-herdado/src/TesteReferencias.java b/bytebank-herdado/src/TesteReferencias.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..20cb952[m
+[1m--- /dev/null[m
+[1m+++ b/bytebank-herdado/src/TesteReferencias.java[m
+[36m@@ -0,0 +1,24 @@[m
+[32m+[m[32mpublic class TesteReferencias {[m
+[32m+[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m
+[32m+[m[32m        Gerente g1 = new Gerente();[m
+[32m+[m[32m        g1.setNome("Marcos");[m
+[32m+[m[32m        g1.setSalario(5000.0);[m
+[32m+[m
+[32m+[m[32m        EditorVideo ev = new EditorVideo();[m
+[32m+[m[32m        ev.setSalario(2500.0);[m
+[32m+[m
+[32m+[m[32m        Designer d = new Designer();[m
+[32m+[m[32m        d.setSalario(2000.0);[m
+[32m+[m
+[32m+[m[32m        ControleBonificacao controle = new ControleBonificacao();[m
+[32m+[m[32m        controle.registra(g1);[m
+[32m+[m[32m        controle.registra(ev);[m
+[32m+[m[32m        controle.registra(d);[m
+[32m+[m
+[32m+[m[32m        System.out.println(controle.getSoma());[m
+[32m+[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
